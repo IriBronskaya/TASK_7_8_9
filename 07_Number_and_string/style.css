@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Raleway:wght@100;200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #0a0a0a, #3a4452);
+}
+
+.calculator {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    width: 290px;
+}
+
+input  {
+    width: 100%;
+    border: none 10px;
+    padding: 10px;
+    margin: 0px;
+    background: transparent;
+    box-shadow: 0px 3px 15px  rgba(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: aliceblue;
+}
+
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.btn_number {
+    color: rgb(129, 190, 228);
+    
+}
+.btn_symbol {
+    color: rgb(221, 58, 167);
+    
+}
+.btn_number {
+    color: rgb(173, 183, 158);
+}
+.btn_c {
+    margin-top: 20px;
+    color: rgb(253, 135, 0);
+}
+
+/*
+.calc-row {
+    height: 100vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+*/
+.input-window {
+    text-align: end;
+    font-size: x-large;
+}

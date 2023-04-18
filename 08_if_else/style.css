@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    background: linear-gradient(90deg, #0a0a0a, #3a4452);
+}
+
+.h1 {
+    color: aliceblue;
+    font-style: italic; 
+    text-align: center;
+    font-size: x-large;
+} 
+
+/*///////////////*/
+.game-card {
+    height: 100vh;
+}
+/* /////////////*/
+.container {
+    border: 1px solid #717377;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    text-align: center;
+}
+
+.card  {
+    color: white;
+    background: transparent;
+    font-size: 40px;
+    border: 2px; color: white;
+}
+
+.card-body  {
+    text-align: center;
+}
+
+.card-footer{
+    text-align: center;
+}
+
+.btn-info {
+    border: 2px solid ;
+    background: transparent;
+    box-shadow: 4px 3px 15px rgba(196, 200, 206, 0.5);
+}
+#btnLess {
+    color: rgb(217, 238, 238);
+}
+
+.btn-success {
+    color: grey;
+}
+#btnEqual {
+    color: white;
+    background: rgb(172, 217, 46);
+}
+
+#btnOver{
+    color: rgb(215, 235, 182);
+}
+
+#btnRetry {
+    color: white;
+    box-shadow: 4px 3px 15px rgba(113, 115, 119, 0.5);
+}
+

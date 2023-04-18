@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Raleway:wght@100;200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; color: aliceblue;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #0a0a0a, #3a4452);
+}
+
+.container {
+    border: 1px solid #717377;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5); 
+}
+
+.h1 {
+    color: aliceblue;
+    font-style: italic; 
+    text-align: center;
+} 
+
+.L {
+    color: aliceblue;
+    font-style: italic; 
+    text-align: left;
+    text-decoration: none;
+} 
+

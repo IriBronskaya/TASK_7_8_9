@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    background: linear-gradient(90deg, #0a0a0a, #3a4452);
+}
+
+.h1 {
+    color: aliceblue;
+    font-size: x-large;
+    font-style: italic; 
+    text-align: center;
+}
+
+.container {
+    border: 1px solid #717377;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+.card  {
+    color: white;
+    background: transparent;
+    font-size: 40px;
+    border: 2px; color: white;
+}
+
+.m-0 {
+    color: rgb(92, 91, 91);
+    background: transparent;
+    font-size: 40px;
+    border: 1px solid gray; 
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    padding: 5px;
+}
+.col {
+    color: rgb(110, 113, 117);
+    font-size: x-large;
+    font-style: italic; 
+    text-align: left;
+}
+
+#surnameOutput  {
+    color: rgb(110, 113, 117);
+    font-size: x-large;
+    font-style: italic; 
+    text-align: center;
+}
+
+#nameOutput {
+    color: rgb(110, 113, 117);
+    font-size: x-large;
+    font-style: italic; 
+    text-align: left;
+}
+
+#genderOutput {
+    color: rgb(110, 113, 117);
+    font-size: x-large;
+    font-style: italic; 
+    text-align: left;
+}
+
+#birthYearOutput {
+    color: rgb(110, 113, 117);
+    font-size: x-large;
+    font-style: italic; 
+    text-align: left;
+}
+
+#birthdayOutput {
+    color: rgb(110, 113, 117);
+    font-size: x-large;
+    font-style: italic; 
+    text-align: left;
+}
+
+#firstNameOutput {
+    color: white;
+}
+#NameOutput {
+    color: white;
+}
+#GenderOutput {
+    color: white;
+}
+#birthyearOutput {
+    color: white;
+}
+#birthDayOutput {
+    color: white;
+}
+
+
