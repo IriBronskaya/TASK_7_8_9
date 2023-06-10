@@ -43,55 +43,46 @@ html, body {
     text-align: left;
 }
 
-#surnameOutput  {
-    color: rgb(110, 113, 117);
-    font-size: x-large;
-    font-style: italic; 
-    text-align: center;
+#firstNameOutput {
+    color: white;
 }
 
-#nameOutput {
-    color: rgb(110, 113, 117);
-    font-size: x-large;
-    font-style: italic; 
-    text-align: left;
+#patronymicOutput {
+    color: white;
+}
+
+#surnameOutput  {
+    color: white;
 }
 
 #genderOutput {
     color: rgb(110, 113, 117);
-    font-size: x-large;
-    font-style: italic; 
-    text-align: left;
-}
-
-#birthYearOutput {
-    color: rgb(110, 113, 117);
-    font-size: x-large;
-    font-style: italic; 
-    text-align: left;
 }
 
 #birthdayOutput {
-    color: rgb(110, 113, 117);
-    font-size: x-large;
+    color: white;
+}
+
+#professionOutput {
+    color: white;
+}
+
+
+button {
+    margin-top: 20px;
+    margin-right: 20px;
     font-style: italic; 
-    text-align: left;
-}
-
-#firstNameOutput {
-    color: white;
-}
-#NameOutput {
-    color: white;
-}
-#GenderOutput {
-    color: white;
-}
-#birthyearOutput {
-    color: white;
-}
-#birthDayOutput {
-    color: white;
-}
-
-
+    font-size: 20px;
+    text-align:center; 
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(110, 113, 117);
+ }
+ 
+ #btnRemoval:hover {
+    background-color: #f3eaea;
+ }
+ 
+ #btnGen:hover {
+    background-color: #f3eaea;
+ 
+ }

@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div class="container" id="container"></div>
 <div><h1 class="h1">Генератор случайных пользователей</h1></div>
 <div class="container">
     <div class="row game-card align-items-center">
@@ -19,23 +20,36 @@
                     <p class="m-0">Результаты генерации</p>
                 </div>
                 <div class="card-body">
-                    <div class="row">
+                    <div class="row game-card align-items-center">
                         <div class="col">
-                            <h3 class="card-title"><span id="surnameOutput">Генерация имени</span></h3>
-                                <h4>Имя:  <span id="firstNameOutput">Иван</span></h4>
-                                <p>
-                            <h3 class="card-title"><span id="nameOutput">Генерация фамилии</span></h3>
-                                <h4>Фамилия:  <span id="NameOutput">Иванов</span></h4>
-                                <p>
-                            <h3 class="card-title"><span id="genderOutput">Генерация пола</span></h3>
-                                <h4>Пол:  <span id="GenderOutput">Мужской</span></h4>
-                                <p>
-                            <h3 class="card-title"><span id="birthYearOutput">Генерация года рождения</span></h3>
-                                <h4>Год:  <span id="birthyearOutput">1988</span></h4>
-                                <p>
-                            <h3 class="card-title"><span id="birthdayOutput">Даты</span></h3>
-                                <h4>День:  <span id="birthDayOutput">30</span></h4>
-                                <p>
+                            <div class="row game-card align-items-center">
+                                <div class="col">Имя</div>
+                                <div class="col" id="firstNameOutput">Генерация имени</div>
+                            </div>
+                          
+                            <div class="row game-card align-items-center">
+                                <div class="col">Отчество</div>
+                                <div class="col" id="patronymicOutput">Генерация отчества</div>
+                            </div>
+                          
+                            <div class="row game-card align-items-center">
+                                <div class="col">Фамилия</div>
+                                <div class="col" id="surnameOutput">Генерация фамилии</div>
+                            </div>
+                            <div class="row game-card align-items-center">
+                                <div class="col">Пол</div>
+                                <div class="col" id="genderOutput">Генерация пола</div>
+                            </div>
+                            <div class="row game-card align-items-center">
+                                <div class="col">День рождения</div>
+                                <div class="col" id="birthdayOutput">Генерация даты рождения</div>
+                            </div>
+                            <div class="row game-card align-items-center">
+                                <div class="col">Профессия</div>
+                                <div class="col" id="professionOutput">Генерация профессии</div>
+                            </div>
+                            <button id="btnRemoval">Удаление всех данных</button>
+                            <button id="btnGen">Сгенирировать все данные</button>
                         </div>
                         </div>
                     </div>
